@@ -515,7 +515,9 @@ grafana:
   defaultDashboardsEnabled: true
 
   adminPassword: prom-operator
-
+  
+  plugins: [oci-metrics-datasource]
+  
   ingress:
     ## If true, Grafana Ingress will be created
     ##
